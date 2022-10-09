@@ -46,6 +46,11 @@ ul {
     flex-direction: column;
 }
 
+button {
+    background-color: aliceblue;
+    border: 1px solid black;
+}
+
 
 /* -------------------------------------------------------- */
 
@@ -76,4 +81,11 @@ ul {
 .attendance-list2{
     width: 50%;
     height: 100%;
+}
+
+.check-div {
+    background-color: aqua;
+    margin: 5px;
+    width: 15px;
+    height: 15px;
 }

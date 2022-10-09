@@ -2,7 +2,6 @@ let search = document.querySelector("input");
 let body = document.querySelector("body");
 let li = document.querySelectorAll("li");
 let buttonO = document.querySelectorAll(".button-o");
-let buttonX = document.querySelectorAll(".button-x");
 
 function putName(event) {
   event.preventDefault();
@@ -40,6 +39,7 @@ for (let i = 0; i < buttonO.length; i++) {
     attendanceO(i);
   });
 }
+
 for (let i = 0; i < buttonX.length; i++) {
   buttonX[i].addEventListener("click", function () {
     attendanceX(i);
